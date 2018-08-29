@@ -215,3 +215,58 @@ cursor: pointer;
 background: #4aaaa5;
 border: 0 none;
 }
+
+@media screen and (max-width:980px){
+    .container{
+        max-width: 960px;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        max-width: 748px;
+        
+    }
+
+    nav{
+        margin-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width:640px){
+    .container{
+        max-width: 620px;
+        
+    }
+
+    nav{
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    #masthead{
+        position: static;
+        
+    }
+
+    #main-container{
+        padding-top: 0;
+
+    }
+
+    #logo{
+        width: 100%;
+    }
+    .work{
+        text-align: center;
+        float: none;
+        margin: 0;
+    }
+    work:nth-child(even){
+        margin: 0;
+        
+    }
+}
